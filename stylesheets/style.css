@@ -1,0 +1,32 @@
+
+body {
+    background-image: url("http://mlb.mlb.com/mlb/images/devices/ballpark/1920x1080/1.jpg");
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.row {
+    position: fixed;
+    display: flex;
+}
+
+.column {
+    padding: 5px;
+}
+
+#teamsText {
+    color: antiquewhite;  
+    margin-left: 2px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+#venueText {
+    color: floralwhite;  
+    margin-left: 2px;
+    font-size: 11px;
+    font-family: sans-serif;
+    margin-top: 100px
+}
